@@ -3,8 +3,9 @@ import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
+import Footer from "./footer";
 
-function Layout({ children }) {
+function Layout({ children, showHeaderLogo }) {
   return (
     <StaticQuery
       query={graphql`
@@ -17,35 +18,14 @@ function Layout({ children }) {
         }
       `}
       render={data => (
-        <div className="flex flex-col font-sans min-h-screen text-gray-900">
-          <Header siteTitle={data.site.siteMetadata.title} />
+        <div className="flex h-screen flex-col bg-e6n-black">
+          <Header siteTitle="lukapeharda.com" showLogo={ showHeaderLogo } />
 
-          <div className="flex flex-col flex-1 md:justify-center max-w-4xl mx-auto px-4 py-8 md:p-8 w-full">
+          <div className="flex-grow">
             {children}
           </div>
 
-          <footer className="bg-blue-500">
-            <div className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
-              <p className="text-white">
-                Created by{" "}
-                <a
-                  href="https://taylorbryant.blog"
-                  className="font-bold no-underline text-white"
-                >
-                  Taylor Bryant
-                </a>
-              </p>
-
-              <p>
-                <a
-                  href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-                  className="font-bold no-underline text-white"
-                >
-                  GitHub
-                </a>
-              </p>
-            </div>
-          </footer>
+          <Footer />
         </div>
       )}
     />
@@ -53,7 +33,12 @@ function Layout({ children }) {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  showHeaderLogo: PropTypes.bool
+};
+
+Layout.defaultProps = {
+  showHeaderLogo: false
 };
 
 export default Layout;

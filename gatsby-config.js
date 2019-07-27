@@ -1,29 +1,37 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`
+    title: 'lukapeharda.com',
+    description: 'PHP & JS developer',
+    author: '@lukapeharda'
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#4dc0b5`,
-        display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`
+        name: 'lukapeharda.com',
+        short_name: 'lukapeharda',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#1a1f36',
+        display: 'minimal-ui',
+        icon: 'src/images/lp-icon.png'
       }
     },
-    `gatsby-plugin-postcss`,
+    'gatsby-plugin-postcss',
     {
       resolve: "gatsby-plugin-purgecss",
       options: {
         tailwind: true,
         purgeOnly: ["src/css/style.css"]
+      }
+    },
+    'gatsby-transformer-json',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/src/data`
       }
     }
   ]

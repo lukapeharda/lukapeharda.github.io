@@ -60,3 +60,76 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
+ @import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+ }
+
+ .text-e6n-color-rainbow {
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-name: e6n-color-rainbow;
+    animation-iteration-count: infinite;
+    @apply text-e6n-red;
+}
+
+@keyframes e6n-color-rainbow {
+    0% {
+        @apply text-e6n-red;
+    }
+    14% {
+        @apply text-e6n-red;
+    }
+    15% {
+        @apply text-e6n-blue;
+    }
+    49% {
+        @apply text-e6n-blue;
+    }
+    50% {
+        @apply text-e6n-yellow;
+    }
+    79% {
+        @apply text-e6n-yellow;
+    }
+    80% {
+        @apply text-e6n-green;
+    }
+    99% {
+        @apply text-e6n-green;
+    }
+    100% {
+        @apply text-e6n-red;
+    }
+}
+
+.line--red {
+    @apply text-e6n-red;
+}
+.line--blue {
+    @apply text-e6n-blue;
+}
+.line--yellow {
+    @apply text-e6n-yellow;
+}
+.line--green {
+    @apply text-e6n-green;
+}
+.logo-container:hover .line--red {
+    @apply text-e6n-green;
+}
+.logo-container:hover .line--green {
+    @apply text-e6n-red;
+}
+.logo-container:hover .line--blue {
+    @apply text-e6n-yellow;
+}
+.logo-container:hover .line--yellow {
+    @apply text-e6n-blue;
+}
+
+.nav-link--active {
+    @apply border-b-2 !important;
+}
