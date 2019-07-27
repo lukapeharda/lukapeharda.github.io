@@ -12,6 +12,16 @@ module.exports = {
       }
     }
   },
-  variants: {},
-  plugins: []
+  variants: {
+    margin: ['responsive', 'last-child']
+  },
+  plugins: [
+    function({ addVariant, e }) {
+      addVariant('last-child', ({ modifySelectors, separator }) => {
+        modifySelectors(({ className }) => {
+          return `.${e(`last-child${separator}${className}`)}:last-child`
+        })
+      })
+    }
+  ]
 };
