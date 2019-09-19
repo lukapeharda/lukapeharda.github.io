@@ -6,7 +6,12 @@ function Articles({articles}) {
 
     const data = useStaticQuery(graphql`
         query ArticlesQuery {
-            allArticlesJson {
+            allArticlesJson(
+                sort: {
+                  fields: [date]
+                  order: DESC
+                }
+              ) {
                 edges {
                     node {
                         id
