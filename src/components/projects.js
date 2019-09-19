@@ -40,13 +40,13 @@ function Projects({projects}) {
     return (
         <div className="h-full w-full relative">
             <div className="bg-e6n-black flex flex-col md:flex-row h-full" key={ projects[index].id }>
-                <div className={ `w-full md:w-2/3 relative bg-e6n-${projects[index].color} h-full bg-contain bg-center` } style={ styles }>
+                <div className={ `w-full md:w-2/3 relative bg-e6n-${projects[index].color} h-64 md:h-full bg-cover bg-center` } style={ styles }>
                     <h2 className="absolute bg-e6n-black opacity-90 top-0 right-0 text-3xl p-6 text-white">
                         <a href={ projects[index].url } className={ `no-underline border-b border-e6n-${projects[index].color} hover:bg-e6n-${projects[index].color} p-1` } target="_blank">{ projects[index].title }</a>
                     </h2>
                 </div>
                 <div className="w-full md:w-1/3 text-white flex flex-col h-full">
-                    <p className="text-xl p-6">{ projects[index].description }</p>
+                    <div className="text-xl p-6 text-content" dangerouslySetInnerHTML={{ __html: projects[index].description }}></div>
                     <Tags tags={ projects[index].technologies } color={ projects[index].color } />
                 </div>
             </div>

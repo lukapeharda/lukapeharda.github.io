@@ -133,3 +133,7 @@
 .nav-link--active {
     @apply border-b-2 !important;
 }
+
+.text-content p + p {
+    @apply pt-3;
+}
