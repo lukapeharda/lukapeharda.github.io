@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 function Tags({tags, color}) {
     if (typeof tags !== 'object') {
@@ -14,11 +15,29 @@ function Tags({tags, color}) {
     )
 }
 
-function Projects({projects}) {
+function Projects() {
     const [index, setIndex] = useState(0);
 
+    const data = useStaticQuery(graphql`
+        query ProjectsQuery {
+            allProjectsJson {
+                edges {
+                    node {
+                        id
+                        title
+                        url
+                        description
+                        image
+                        technologies
+                        color
+                    }
+                }
+            }
+        }
+    `);
+
     const nextProject = () => {
-        if (index < projects.length - 1) {
+        if (index < data.allProjectsJson.edges.length - 1) {
             setIndex(index + 1);
         } else {
             setIndex(0);
@@ -29,25 +48,27 @@ function Projects({projects}) {
         if (index > 0) {
             setIndex(index - 1);
         } else {
-            setIndex(projects.length - 1);
+            setIndex(data.allProjectsJson.edges.length - 1);
         }
     }
 
+    const project = data.allProjectsJson.edges[index].node;
+
     const styles = {
-        backgroundImage: "url(" + projects[index].image + ")"
+        backgroundImage: "url(" + project.image + ")"
     }
 
     return (
         <div className="h-full w-full relative">
-            <div className="bg-e6n-black flex flex-col md:flex-row h-full" key={ projects[index].id }>
-                <div className={ `w-full md:w-2/3 relative bg-e6n-${projects[index].color} h-64 md:h-full bg-cover bg-center` } style={ styles }>
+            <div className="bg-e6n-black flex flex-col md:flex-row h-full" key={ project.id }>
+                <div className={ `w-full md:w-2/3 relative bg-e6n-${project.color} h-64 md:h-full bg-cover bg-center` } style={ styles }>
                     <h2 className="absolute bg-e6n-black opacity-90 top-0 right-0 text-3xl p-6 text-white">
-                        <a href={ projects[index].url } className={ `no-underline border-b border-e6n-${projects[index].color} hover:bg-e6n-${projects[index].color} p-1` } target="_blank">{ projects[index].title }</a>
+                        <a href={ project.url } className={ `no-underline border-b border-e6n-${project.color} hover:bg-e6n-${project.color} p-1` } target="_blank">{ project.title }</a>
                     </h2>
                 </div>
                 <div className="w-full md:w-1/3 text-white flex flex-col h-full">
-                    <div className="text-xl p-6 text-content" dangerouslySetInnerHTML={{ __html: projects[index].description }}></div>
-                    <Tags tags={ projects[index].technologies } color={ projects[index].color } />
+                    <div className="text-xl p-6 text-content" dangerouslySetInnerHTML={{ __html: project.description }}></div>
+                    <Tags tags={ project.technologies } color={ project.color } />
                 </div>
             </div>
             <div className="absolute bg-white flex justify-around bottom-0 right-0">
