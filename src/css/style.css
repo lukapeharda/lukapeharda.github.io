@@ -60,12 +60,19 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
- @import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+ /* @import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap'); */
+ @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat:300&display=swap');
 
- body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
- }
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-weight: 100; */
+    font-family: 'Montserrat', serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
 
  .text-e6n-color-rainbow {
     animation-duration: 10s;
