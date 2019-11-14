@@ -21,7 +21,7 @@ function Layout({ children, showHeaderLogo }) {
         <div className="flex h-screen flex-col bg-e6n-black">
           <Header siteTitle="lukapeharda.com" showLogo={ showHeaderLogo } />
 
-          <div className="flex-grow">
+          <div className="flex-grow bg-e6n-black">
             {children}
           </div>
 
