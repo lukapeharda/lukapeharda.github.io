@@ -3,15 +3,64 @@ import PropTypes from "prop-types";
 import React, { useState } from "react";
 import Logo from './logo';
 
+function RandomizeCharColors(props) {
+  const initial = Array.prototype.map.call(props.children, char => char);
+  const [chars, setChars] = useState(initial);
+  const [colorInterval, setColorInterval] = useState(null);
+
+  const colors = ['text-e6n-red', 'text-e6n-blue', 'text-e6n-green', 'text-e6n-yellow'];
+
+  const onMouseEnter = () => {
+    setColorInterval(setInterval(() => {
+      const rands = getRandomIndices(props.children.length, 4);
+      setChars(initial.map((char, index) => {
+        const colorIndex = rands.indexOf(index);
+        if (colorIndex !== -1) {
+          return <span className={colors[colorIndex]} key={index}>{ char }</span>;
+        }
+
+        return char;
+      }));
+    }, 500));
+  }
+
+  const onMouseLeave = (interval) => {
+    clearInterval(colorInterval);
+    setChars(initial);
+  }
+
+  const getRandomIndices = (max, num = 4) => {
+    let numbers = [];
+
+    while (numbers.length < num) {
+      let r = Math.floor(Math.random() * max);
+
+      if(numbers.indexOf(r) === -1 && r !== 11) {
+        numbers.push(r);
+      }
+    }
+
+    return numbers;
+  }
+
+  return (
+    <span onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+      { chars }
+    </span>
+  );
+}
+
 function Header({ siteTitle, showLogo }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
     <nav className="bg-e6n-black">
       <div className="flex flex-wrap items-center justify-between p-4 md:p-8">
-        <Link to="/" className="flex items-center no-underline text-white">
+        <Link to="/" className="flex items-center no-underline text-gray-500">
           { showLogo ? <div  className="mr-6"><Logo width="30" height="30" /></div> : null }
-          <span className="text-xl tracking-tight">{siteTitle}</span>
+          <span className="text-xl tracking-tighter">
+            <RandomizeCharColors>{siteTitle}</RandomizeCharColors>
+          </span>
         </Link>
 
         <button
