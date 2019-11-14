@@ -26,19 +26,16 @@ function Articles({articles}) {
     `);
 
     return (
-        <div className="h-full w-full p-4 md:p-8">
-            <h1 className="text-white text-3xl">Articles</h1>
-            <div className="flex flex-wrap -mx-4">
-                { data.allArticlesJson.edges.map((article, index) => (
-                    <div className="w-full md:w-1/2 lg:w-1/3 py-2 px-4" key={ article.node.id }>
-                        <h3>
-                            <a className={ `text-white p-1 text-lg border-b border-e6n-${colors[index % 4]} hover:bg-e6n-${colors[index % 4]}` } href={ article.node.url } title={ article.node.title } target="_blank">{ article.node.title }</a>
-                        </h3>
-                        <div className="text-white text-xs text-gray-500 mt-2">{ article.node.date }</div>
-                        <p className="text-gray-100 mt-2">{ article.node.excerpt }</p>
-                    </div>
-                )) }
-            </div>
+        <div className="flex flex-wrap -mx-4">
+            { data.allArticlesJson.edges.map((article, index) => (
+                <div className="w-full md:w-1/2 lg:w-1/3 py-2 px-4" key={ article.node.id }>
+                    <h3>
+                        <a className={ `text-white p-1 text-lg border-b border-e6n-${colors[index % 4]} hover:bg-e6n-${colors[index % 4]}` } href={ article.node.url } title={ article.node.title } target="_blank">{ article.node.title }</a>
+                    </h3>
+                    <div className="text-white text-xs text-gray-500 mt-2">{ new Date(article.node.date).toDateString() }</div>
+                    <p className="text-gray-100 mt-2">{ article.node.excerpt }</p>
+                </div>
+            )) }
         </div>
     );
 }

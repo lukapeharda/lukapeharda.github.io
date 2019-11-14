@@ -12,7 +12,11 @@ function ArticlesPage(data) {
                 keywords={['lukapeharda', 'lukapeharda.com', 'articles']}
             />
 
-            <Articles />
+            <div className="h-full w-full p-4 md:p-8">
+                <h1 className="text-white text-4xl italic">Articles</h1>
+
+                <Articles />
+            </div>
         </Layout>
     );
 }
