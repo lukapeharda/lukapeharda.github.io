@@ -21,7 +21,7 @@ function NowPage() {
                 <h1 className="text-white italic text-4xl mt-8 pb-6">What I'm doing right <span className="text-e6n-yellow">now</span></h1>
 
                 <p className="text-white text-xl">Currently I'm learning <a href="https://www.gatsbyjs.org" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">Gatsby</a> and <a href="https://tailwindcss.com" target="_blank" className="border-b border-e6n-blue hover:bg-e6n-blue">Tailwind CSS</a> and working on my own portfolio page (which you are currently reading).</p>
-                <p className="text-white text-xl">Implementing <span className="text-e6n-blue">PayPal</span> subscriptions to <a href="https://www.optimizepress.com" target="_blank">OptimizePress</a> checkout because PayPal is still a thing in a lot of countries and preferred method of payment for a lot of people. Now of only it wasn't such a mess to integrate it...</p>
+                <p className="text-white text-xl">Implementing <span className="text-e6n-blue">PayPal</span> subscriptions to <a href="https://www.optimizepress.com" target="_blank">OptimizePress</a> checkout because PayPal is still a thing in a lot of countries and preferred method of payment for a lot of people. Now if only it wasn't such a mess to integrate...</p>
             </div>
         </Layout>
     );
