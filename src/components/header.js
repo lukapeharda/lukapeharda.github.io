@@ -85,7 +85,7 @@ function Header({ siteTitle, showLogo }) {
           <div className="text-md">
             <Link
               to="/"
-              className="block mt-4 p-2 md:inline-block md:mt-0 mx-3 no-underline text-white border-b border-e6n-red hover:bg-e6n-red"
+              className="block mt-4 p-2 md:inline-block md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white"
               activeClassName="nav-link--active"
             >
               home
@@ -93,7 +93,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/now"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-white border-b border-e6n-blue hover:bg-e6n-blue"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-blue hover:bg-e6n-blue hover:text-white"
               activeClassName="nav-link--active"
             >
               now
@@ -101,7 +101,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/projects"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-white border-b border-e6n-yellow hover:bg-e6n-yellow"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-yellow hover:bg-e6n-yellow hover:text-white"
               activeClassName="nav-link--active"
             >
               projects
@@ -109,7 +109,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/articles"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-white border-b border-e6n-green hover:bg-e6n-green"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-green hover:bg-e6n-green hover:text-white"
               activeClassName="nav-link--active"
             >
               articles
@@ -117,7 +117,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/about"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-white border-b border-e6n-red hover:bg-e6n-red"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white"
               activeClassName="nav-link--active"
             >
               about
