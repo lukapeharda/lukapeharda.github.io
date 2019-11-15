@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 function Tags({tags, color}) {
     if (typeof tags !== 'object') {
@@ -63,7 +64,7 @@ function Projects() {
             <div className="bg-e6n-black flex flex-col md:flex-row h-full" key={ project.id }>
                 <div className={ `w-full md:w-2/3 relative bg-e6n-${project.color} h-64 md:h-full bg-cover bg-center` } style={ styles }>
                     <h2 className="absolute bg-e6n-black opacity-90 top-0 right-0 text-3xl p-6 text-white">
-                        <a href={ project.url } className={ `no-underline border-b border-e6n-${project.color} hover:bg-e6n-${project.color} p-1` } target="_blank">{ project.title }</a>
+                        <OutboundLink href={ project.url } className={ `no-underline border-b border-e6n-${project.color} hover:bg-e6n-${project.color} p-1` } target="_blank">{ project.title }</OutboundLink>
                     </h2>
                 </div>
                 <div className="w-full md:w-1/3 text-white flex flex-col h-full">
