@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import helmet from "../images/dog-illustration.svg";
 
 function AboutPage() {
     return (
