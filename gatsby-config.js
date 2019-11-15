@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#ffffff',
         theme_color: '#1a1f36',
         display: 'minimal-ui',
-        icon: 'src/images/lp-icon.png'
+        icon: 'src/images/lp-icon-large-filled.png'
       }
     },
     'gatsby-plugin-postcss',
