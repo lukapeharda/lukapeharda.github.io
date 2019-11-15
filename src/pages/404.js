@@ -2,22 +2,20 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import abductionIllustration from "../images/abduction-illustration.svg";
 
 function NotFoundPage() {
   return (
     <Layout>
-      <SEO title="404: Not found" />
-      <div>
-        <img
-          src={abductionIllustration}
-          className="block mx-auto w-1/2"
-          alt="Ghost getting abducted by aliens"
+        <SEO
+            title="404"
+            keywords={['luka', 'peharda', 'lukapeharda', 'lukapeharda.com', '404']}
         />
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Looks like this page is a ghost that got abducted by aliens...
-        </h2>
-      </div>
+
+        <div className="h-full w-full xl:w-1/2 md:w-2/3 p-4 md:p-8 text-content bg-e6n-black">
+            <h1 className="text-white text-4xl italic mb-4">Oh dear! We got a 404</h1>
+
+            <p className="text-white text-xl">That means that either page is missing, or I forgot to implement something :)</p>
+        </div>
     </Layout>
   );
 }
