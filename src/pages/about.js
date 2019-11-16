@@ -27,7 +27,7 @@ function AboutPage() {
 
                 <h3 className="text-white text-3xl mt-6 mb-4 italic">My hobbies &amp; "helmets"</h3>
                 <p className="text-white text-xl">I like hiking, biking, cycling and boarding - mostly on snow but now and then I board different kinds of terrain :-).</p>
-                <p className="text-white text-xl mb-2">Depending on the season, I tend to either ride MTB up &amp; down the mountains, ride motorcycle or (in winter) snowboard.</p>
+                <p className="text-white text-xl mb-2">Depending on the season I tend to either ride MTB up &amp; down the mountains, ride motorcycle or (in winter) snowboard.</p>
                 <div className="flex -mx-2 mt-8">
                     <div className="w-1/3 px-2">
                         <div className="relative">
