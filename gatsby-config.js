@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'lukapeharda.com',
     description: 'PHP & JS developer',
-    author: '@lukapeharda'
+    author: '@lukapeharda',
+    siteUrl: 'https://lukapeharda.com/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -44,6 +45,7 @@ module.exports = {
         respectDNT: true,
         pageTransitionDelay: 0,
       }
-    }
+    },
+    'gatsby-plugin-cname'
   ]
 };
