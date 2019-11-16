@@ -24,7 +24,7 @@ module.exports = {
       options: {
         tailwind: true,
         purgeOnly: ["src/css/style.css"],
-        whiltelist: ['.bg-e6n-red', '.bg-e6n-blue', '.bg-e6n-green', '.bg-e6n-yellow']
+        whitelist: ['bg-e6n-red', 'bg-e6n-blue', 'bg-e6n-green', 'bg-e6n-yellow']
       }
     },
     'gatsby-transformer-json',
