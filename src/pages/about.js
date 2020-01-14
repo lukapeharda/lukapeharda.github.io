@@ -31,19 +31,19 @@ function AboutPage() {
                 <div className="flex -mx-2 mt-8">
                     <div className="w-1/3 px-2">
                         <div className="relative">
-                            <img src="https://scontent-vie1-1.cdninstagram.com/vp/a6530f4befd5bad047fa0cc0f25116de/5E39F76E/t51.2885-15/e35/60111456_447958889109990_6961973080108333119_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=106" />
+                            <img src="/images/lukapeharda-motorcycle-helmet-biltwell.jpg" />
                             <span className="absolute px-2 py-1 text-sm text-gray-500 bg-e6n-black bottom-0 right-0">Motorcycle Helmet</span>
                         </div>
                     </div>
                     <div className="w-1/3 px-2">
                         <div className="relative">
-                            <img src="https://scontent-vie1-1.cdninstagram.com/vp/0473956c18163d00f02a7017df121cd9/5DFDEA2C/t51.2885-15/e35/54512279_358388658219582_909290742526483030_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=106" />
+                            <img src="/images/lukapeharda-mtb-helmet-btwin.jpg" />
                             <span className="absolute px-2 py-1 text-sm text-gray-500 bg-e6n-black bottom-0 right-0">MTB Helmet</span>
                         </div>
                     </div>
                     <div className="w-1/3 px-2">
                         <div className="relative">
-                            <img src="https://scontent-vie1-1.cdninstagram.com/vp/510d66588a4db32d09cd89ddf360d338/5E398082/t51.2885-15/e35/53683220_2005211763116871_4516240807228970445_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=103" />
+                            <img src="/images/lukapeharda-snowboarding-helmet-anon.jpg" />
                             <span className="absolute px-2 py-1 text-sm text-gray-500 bg-e6n-black bottom-0 right-0">Snowboarding Helmet</span>
                         </div>
                     </div>
