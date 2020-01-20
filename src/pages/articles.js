@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Articles from "../components/articles";
 
-function ArticlesPage(data) {
+function ArticlesPage() {
     return (
         <Layout>
             <SEO

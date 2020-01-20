@@ -1,8 +1,8 @@
 {
-  "name": "@oddstronaut/gatsby-starter-tailwind",
-  "description": "Gatsby starter styled with Tailwind",
-  "version": "3.0.6",
-  "author": "Taylor Bryant <taylor@bryant.io>",
+  "name": "@lukapeharda/lukapeharda-website",
+  "description": "Personal website of Luka Peharda",
+  "version": "1.0.0",
+  "author": "Luka Peharda <lukapeharda@gmail.com>",
   "dependencies": {
     "gatsby": "2.8.2",
     "gatsby-cli": "^2.8.11",
@@ -12,6 +12,7 @@
     "gatsby-plugin-postcss": "2.0.7",
     "gatsby-plugin-purgecss": "4.0.0",
     "gatsby-plugin-react-helmet": "3.0.12",
+    "gatsby-plugin-sitemap": "^2.2.26",
     "gatsby-source-filesystem": "^2.1.37",
     "gatsby-transformer-json": "^2.2.18",
     "graphql": "14.3.1",
@@ -55,10 +56,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind"
+    "url": "https://github.com/lukapeharda/lukapeharda.github.io"
   },
   "bugs": {
-    "url": "https://github.com/oddstronaut/gatsby-starter-tailwind/issues"
+    "url": "https://github.com/lukapeharda/lukapeharda.github.io/issues"
   },
   "publishConfig": {
     "access": "public"

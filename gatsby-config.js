@@ -46,6 +46,7 @@ module.exports = {
         pageTransitionDelay: 0,
       }
     },
-    'gatsby-plugin-cname'
+    'gatsby-plugin-cname',
+    'gatsby-plugin-sitemap'
   ]
 };

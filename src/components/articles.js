@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
-function Articles({articles}) {
+function Articles() {
     const colors = ['red', 'blue', 'green', 'yellow'];
 
     const data = useStaticQuery(graphql`
