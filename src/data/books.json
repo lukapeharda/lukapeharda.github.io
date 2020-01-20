@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "url": "https://amzn.to/35YJ9DS",
+        "description": "Excellent book for those who want to learn how to form good habits easily or break bad ones. Also, its 1% compounding effect  description is amazing, inspirational and motivational.",
+        "recommendationYear": 2019
+    },
+    {
+        "title": "Why We Sleep",
+        "author": "Matthew Walker",
+        "url": "https://amzn.to/2FVWcLt",
+        "description": "Highly recommended book to gain insights into sleep and its value. You'll re-think late night alcohol beverages, Netflix binges and staring at screens :) Somewhat disturbing facts which some articles already disproved so take everything with a grain of salt (or two).",
+        "recommendationYear": 2019
+    },
+    {
+        "title": "Sapiens: A brief history of humankind",
+        "author": "Yuval Noah Harari",
+        "url": "https://amzn.to/38etG3V",
+        "description": "Interesting take on history of the world in which history and philosophy mix to create tantalizing read.",
+        "recommendationYear": 2019
+    }
+]

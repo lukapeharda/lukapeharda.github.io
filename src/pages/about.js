@@ -23,6 +23,8 @@ function AboutPage() {
 
                 <p className="text-white text-xl">I'm also a co-organiser of a local developer meetup called <OutboundLink href="https://www.meetup.com/en-AU/Devz-Meetup-Vara%C5%BEdin/" target="_blank" className="border-b border-e6n-red hover:bg-e6n-red">Devz Meetup Varaždin</OutboundLink>.</p>
 
+                <p className="text-white text-xl">I like to read a lot and listen to podcasts so if interested take a look at my <Link className="border-b border-e6n-green hover:bg-e6n-green" to="/recommendations">recommendations</Link>.</p>
+
                 <p className="text-white text-xl">Programming is more than a work for me. It is a calling :-) A mean to express myself creatively and to harness my brain power to create something that potenitally a lot of people will use. I won't lie, it can be frustrating, there are good and bad days, but more often than not it is exceptionally fullfilling.</p>
 
                 <h3 className="text-white text-3xl mt-6 mb-4 italic">My hobbies &amp; "helmets"</h3>
