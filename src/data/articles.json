@@ -53,5 +53,17 @@
         "url": "https://medium.com/@lukapeharda/interesting-reads-volume-2-f11c147badee",
         "date": "2017-02-10",
         "excerpt": "Another issue of interesting links & reads. Removed 'weekly' from email because it seems I'm unable to stay on schedule."
+    }, {
+        "id": "interesting-reads-volume-6",
+        "title": "Interesting reads — volume #6",
+        "url": "https://medium.com/@lukapeharda/interesting-reads-volume-6-fa97b98a8a3",
+        "date": "2018-01-17",
+        "excerpt": "In this volume, there are a couple of interesting articles related to WordPress and Laravel as well as JavaScript ones (plus few goodies and scare pieces)."
+    }, {
+        "id": "interesting-reads-volume-7",
+        "title": "Interesting reads — volume #7",
+        "url": "https://medium.com/@lukapeharda/interesting-reads-volume-7-f2f5299febb0",
+        "date": "2020-01-31",
+        "excerpt": "Good news, by popular demand (wink wink Zvonko) I’m continuing with Interesting reads. I know what you’re thinking — your year could not have started with better news than this :D"
     }
 ]
