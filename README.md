@@ -34,7 +34,7 @@ npm run develop
 Use `npm run build` to build your site for production.
 
 ## Deploy to Github
-Run `npm deploy` and it will run `gatsby build && gh-pages -d public -b master`.
+Run `npm run deploy` and it will run `gatsby build && gh-pages -d public -b master`.
 
 [1]: https://www.gatsbyjs.org/
 [2]: https://github.com/oddstronaut/gatsby-starter-tailwind
