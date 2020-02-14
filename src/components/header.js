@@ -54,9 +54,9 @@ function Header({ siteTitle, showLogo }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <nav className="bg-e6n-black">
+    <nav className="bg-e6n-black light-mode:bg-white">
       <div className="flex flex-wrap items-center justify-between p-4 md:p-8">
-        <Link to="/" className="flex items-center no-underline text-gray-500">
+        <Link to="/" className="flex items-center no-underline text-gray-500 light-mode:text-gray-800">
           { showLogo ? <div  className="mr-6"><Logo width="30" height="30" /></div> : null }
           <span className="text-xl tracking-tighter">
             <RandomizeCharColors>{siteTitle}</RandomizeCharColors>
@@ -64,7 +64,7 @@ function Header({ siteTitle, showLogo }) {
         </Link>
 
         <button
-          className="block md:hidden flex items-center px-3 py-2 rounded text-white"
+          className="block md:hidden flex items-center px-3 py-2 rounded text-white light-mode:text-gray-800 focus:outline-none"
           onClick={() => toggleExpansion(!isExpanded)}
         >
           <svg
@@ -85,7 +85,7 @@ function Header({ siteTitle, showLogo }) {
           <div className="text-md">
             <Link
               to="/"
-              className="block mt-4 p-2 md:inline-block md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white"
+              className="block mt-4 p-2 md:inline-block md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
               home
@@ -93,7 +93,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/now"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-blue hover:bg-e6n-blue hover:text-white"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-blue hover:bg-e6n-blue hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
               now
@@ -101,7 +101,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/projects"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-yellow hover:bg-e6n-yellow hover:text-white"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-yellow hover:bg-e6n-yellow hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
               projects
@@ -109,7 +109,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/articles"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-green hover:bg-e6n-green hover:text-white"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-green hover:bg-e6n-green hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
               articles
@@ -117,7 +117,7 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/about"
-              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white"
+              className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
               about

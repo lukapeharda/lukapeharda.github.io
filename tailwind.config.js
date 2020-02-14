@@ -9,6 +9,9 @@ module.exports = {
         'e6n-yellow': '#ffd633',
         'e6n-green': '#5f9f34',
         'e6n-black': '#1a1f36'
+      },
+      screens: {
+        'light-mode': { raw: '(prefers-color-scheme: light)' }
       }
     }
   },

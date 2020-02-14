@@ -18,10 +18,10 @@ function Layout({ children, showHeaderLogo }) {
         }
       `}
       render={data => (
-        <div className="flex h-screen flex-col bg-e6n-black">
+        <div className="flex h-screen flex-col bg-e6n-black light-mode:bg-white">
           <Header siteTitle="lukapeharda.com" showLogo={ showHeaderLogo } />
 
-          <div className="flex-grow bg-e6n-black">
+          <div className="flex-grow bg-e6n-black light-mode:bg-white">
             {children}
           </div>
 

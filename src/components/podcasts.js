@@ -30,10 +30,10 @@ function Podcasts() {
             { data.allPodcastsJson.edges.map((podcast, index) => (
                 <div className="w-full py-2 px-4" key={ podcast.node.title }>
                     <h3>
-                        <OutboundLink className={ `text-white p-1 text-lg border-b border-e6n-${colors[index % 4]} hover:bg-e6n-${colors[index % 4]}` } href={ podcast.node.url } title={ podcast.node.title } target="_blank">{ podcast.node.title }</OutboundLink>
+                        <OutboundLink className={ `text-white light-mode:text-gray-800 p-1 text-lg border-b border-e6n-${colors[index % 4]} hover:bg-e6n-${colors[index % 4]}` } href={ podcast.node.url } title={ podcast.node.title } target="_blank">{ podcast.node.title }</OutboundLink>
                     </h3>
 
-                    <p className="text-gray-100 mt-2">{ podcast.node.description }</p>
+                    <p className="text-gray-100 light-mode:text-gray-600 mt-2">{ podcast.node.description }</p>
                 </div>
             )) }
         </div>

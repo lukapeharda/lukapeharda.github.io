@@ -10,7 +10,7 @@ function Tags({tags, color}) {
     return (
         <div className="p-6">
             { tags.map((tag) => (
-                <span className={ `px-2 py-1 bg-e6n-${color} mr-2 mb-2 inline-block last-child:mr-0` } key={ tag }>{ tag }</span>
+                <span className={ `text-white px-2 py-1 bg-e6n-${color} mr-2 mb-2 inline-block last-child:mr-0` } key={ tag }>{ tag }</span>
             ))}
         </div>
     )
@@ -61,13 +61,13 @@ function Projects() {
 
     return (
         <div className="h-full w-full relative">
-            <div className="bg-e6n-black flex flex-col md:flex-row h-full" key={ project.id }>
+            <div className="bg-e6n-black light-mode:bg-white flex flex-col md:flex-row h-full" key={ project.id }>
                 <div className={ `w-full md:w-2/3 relative bg-e6n-${project.color} h-64 md:h-full bg-cover bg-center` } style={ styles }>
-                    <h2 className="absolute bg-e6n-black opacity-90 top-0 right-0 text-3xl p-6 text-white">
+                    <h2 className="absolute bg-e6n-black light-mode:bg-white opacity-90 top-0 right-0 text-3xl p-6 text-white light-mode:text-gray-800">
                         <OutboundLink href={ project.url } className={ `no-underline border-b border-e6n-${project.color} hover:bg-e6n-${project.color} p-1` } target="_blank">{ project.title }</OutboundLink>
                     </h2>
                 </div>
-                <div className="w-full md:w-1/3 text-white flex flex-col h-full">
+                <div className="w-full md:w-1/3 text-white light-mode:text-gray-800 flex flex-col h-full">
                     <div className="text-xl p-6 text-content" dangerouslySetInnerHTML={{ __html: project.description }}></div>
                     <Tags tags={ project.technologies } color={ project.color } />
                 </div>
