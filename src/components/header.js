@@ -92,7 +92,7 @@ function Header({ siteTitle, showLogo }) {
             </Link>
 
             <Link
-              to="/now"
+              to="/now/"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-blue hover:bg-e6n-blue hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
@@ -100,7 +100,7 @@ function Header({ siteTitle, showLogo }) {
             </Link>
 
             <Link
-              to="/projects"
+              to="/projects/"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-yellow hover:bg-e6n-yellow hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
@@ -108,7 +108,7 @@ function Header({ siteTitle, showLogo }) {
             </Link>
 
             <Link
-              to="/articles"
+              to="/articles/"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-green hover:bg-e6n-green hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
@@ -116,7 +116,7 @@ function Header({ siteTitle, showLogo }) {
             </Link>
 
             <Link
-              to="/about"
+              to="/about/"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
