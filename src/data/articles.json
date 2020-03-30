@@ -89,5 +89,11 @@
         "url": "https://medium.com/@lukapeharda/interesting-reads-volume-8-4a6f7a5cbfa1",
         "date": "2020-02-27",
         "excerpt": "A lot of WordPress, Laravel and JavaScript articles and tips this month. Even though they are showcased in some framework or an app (what would you call a WordPress, a framework, or an app, or maybe both?) most of its principles are universal and can be applied to different programming languages and frameworks."
+    }, {
+        "id": "interesting-reads-volume-9",
+        "title": "Interesting reads — volume #9",
+        "url": "https://medium.com/@lukapeharda/interesting-reads-volume-9-3a39fda84274",
+        "date": "2020-03-30",
+        "excerpt": "I know you’ve been impatiently waiting for this month’s installment of Interesting Reads. Again, a collection of mostly PHP, Laravel, WordPress and JavaScript links but there should be something for everybody to enjoy."
     }
 ]
