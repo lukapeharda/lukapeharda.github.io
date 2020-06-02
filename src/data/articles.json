@@ -95,5 +95,17 @@
         "url": "https://medium.com/@lukapeharda/interesting-reads-volume-9-3a39fda84274",
         "date": "2020-03-30",
         "excerpt": "I know you’ve been impatiently waiting for this month’s installment of Interesting Reads. Again, a collection of mostly PHP, Laravel, WordPress and JavaScript links but there should be something for everybody to enjoy."
+    }, {
+        "id": "interesting-reads-volume-10",
+        "title": "Interesting reads — volume #10",
+        "url": "https://medium.com/@lukapeharda/interesting-reads-volume-10-d191261e4af7",
+        "date": "2020-04-30",
+        "excerpt": "Another month has passed so it is time for another collection of interesting reads collected in the last month or so. Some links are a bit older but good and applicable nonetheless. Mostly PHP and JavaScript this time but there are a few unrelated gems as always."
+    }, {
+        "id": "interesting-reads-volume-11",
+        "title": "Interesting reads — volume #11",
+        "url": "https://medium.com/@lukapeharda/interesting-reads-volume-11-5996c5f3abbe",
+        "date": "2020-05-29",
+        "excerpt": "This month there may be more React links than usual due to me building a new web app using React hooks and learning the intricacies of hooks to stop DDoSing my app 😜"
     }
 ]
