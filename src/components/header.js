@@ -82,9 +82,11 @@ function Header({ siteTitle, showLogo }) {
             isExpanded ? `block` : `hidden`
           } md:block md:flex md:items-center w-full md:w-auto`}
         >
-          <div className="text-md">
+          <nav className="text-md" role="menubar">
             <Link
               to="/"
+              role="menuitem"
+              title="Home"
               className="block mt-4 p-2 md:inline-block md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
@@ -93,6 +95,8 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/now/"
+              role="menuitem"
+              title="Now"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-blue hover:bg-e6n-blue hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
@@ -101,6 +105,8 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/projects/"
+              role="menuitem"
+              title="Projects"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-yellow hover:bg-e6n-yellow hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
@@ -109,6 +115,8 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/articles/"
+              role="menuitem"
+              title="Articles"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-green hover:bg-e6n-green hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
@@ -117,12 +125,14 @@ function Header({ siteTitle, showLogo }) {
 
             <Link
               to="/about/"
+              role="menuitem"
+              title="About"
               className="block p-2 md:inline-block mt-4 md:mt-0 mx-3 no-underline text-gray-500 border-b border-e6n-red hover:bg-e6n-red hover:text-white light-mode:text-gray-800"
               activeClassName="nav-link--active"
             >
               about
             </Link>
-          </div>
+          </nav>
         </div>
       </div>
     </nav>
