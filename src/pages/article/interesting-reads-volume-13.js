@@ -39,6 +39,7 @@ function InterestingReadsVolume13Page() {
             <SEO
                 title="Interesting Reads - volume #13"
                 keywords={['articles', 'interesting', 'reads', 'lukapeharda.com', '13']}
+                description="Woohoo, we're already at lucky number 13! Featuring articles from @adamwathan, @marcelpociot, @calebporzio and many others"
             />
 
             <div className="h-full w-full xl:w-1/2 md:w-2/3 p-4 md:p-8 text-content bg-e6n-black light-mode:bg-white">
