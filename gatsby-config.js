@@ -47,6 +47,12 @@ module.exports = {
       }
     },
     'gatsby-plugin-cname',
-    'gatsby-plugin-sitemap'
+    'gatsby-plugin-sitemap',
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://lukapeharda.com`,
+      },
+    }
   ]
 };
