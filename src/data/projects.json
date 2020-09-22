@@ -17,14 +17,5 @@
         "technologies": ["reactjs", "redux", "pwa", "php", "laravel", "nova", "tailwindcss"],
         "color": "yellow",
         "hoverColor": "red"
-    }, {
-        "id": "konstruo",
-        "title": "Konstruo",
-        "url": "https://konstruo.online/?utm_source=website&utm_medium=post&utm_campaign=luka-peharda-com",
-        "description": "<p>Construction Resource Management SaaS</p><p>Manage workers, their timesheets, vacation and medical leave days. Manage construction sites, its photos and contacts.</p><p>Manage expenses, receipts, suppliers and rented out tools and equipment. Create quotes and invoices.</p>",
-        "image": "/images/konstruo-web-1.png",
-        "technologies": ["php", "laravel", "vuejs", "saas"],
-        "color": "green",
-        "hoverColor": "blue"
     }
 ]
