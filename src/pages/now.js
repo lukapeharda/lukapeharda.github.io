@@ -7,7 +7,7 @@ import SEO from "../components/seo";
 
 function NowPage() {
     const prev = new Date('2020-03-30');
-    const now = new Date('2020-06-19');
+    const now = new Date('2020-12-07');
     return (
         <Layout>
             <SEO
@@ -22,14 +22,8 @@ function NowPage() {
                 <h1 className="text-white light-mode:text-gray-800 italic text-4xl mt-8">What I'm doing right <span className="text-e6n-yellow">now</span></h1>
                 <p className="text-gray-500 light-mode:text-gray-800 text-sm pb-4">{ now.toDateString() }</p>
 
-                <p className="text-white light-mode:text-gray-800 text-xl">Working on subscriptions and recurring payments for <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin and doing some code optimizations.</p>
-                <p className="text-white light-mode:text-gray-800 text-xl">Started working on yet another side project called <OutboundLink href="https://tinywins.today/" className="border-b border-e6n-yellow hover:bg-e6n-yellow" target="_blank">Tiny Wins</OutboundLink> which is a simple habit tracker inspired by the amazing Atomic Habits book written by James Clear.</p>
-
-                <h2 className="text-white light-mode:text-gray-800 italic text-2xl mt-8">Previous update</h2>
-                <p className="text-gray-500 light-mode:text-gray-800 text-sm pb-4">{ prev.toDateString() }</p>
-
-                <p className="text-white light-mode:text-gray-800 text-xl">Finishing up sales stats for <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin and starting work on recurring charges (subscriptions).</p>
-                <p className="text-white light-mode:text-gray-800 text-xl">I've launched my first side project <OutboundLink href="https://photile.co/" className="border-b border-e6n-green hover:bg-e6n-green" target="_blank">Photile.co</OutboundLink> on IndieHackers, HackerNews (Show HN) and ProductHunt. Now I'm just sitting back and waiting for users to start rolling in :-D</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">Implementing coupons for subscriptions in <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin while refactoring legacy code doing payments. Wraping up subscription implementation and getting it ready for intesive testing before relasing it to customers.</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">Working on special upsell scenarios for new <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-green hover:bg-e6n-green" target="_blank">OptimizePress</OutboundLink> customers which would give them extra template packs when upgrading to larger tier.</p>
             </div>
         </Layout>
     );
