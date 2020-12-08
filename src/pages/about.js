@@ -19,7 +19,7 @@ function AboutPage() {
                 <p className="text-white light-mode:text-gray-800 text-xl">Currently I'm working for <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress</OutboundLink> crafting bespoke checkout experience and integrating a lot of externals services and APIs into a seamless flow.</p>
                 <p className="text-white light-mode:text-gray-800 text-xl">Beside working on OptimizePress payment system, I'm also developing <OutboundLink href="https://kourses.com/" className="border-b border-e6n-green hover:bg-e6n-green" target="_blank">Kourses</OutboundLink>, an online course &amp; membership platform.</p>
 
-                <p className="text-white light-mode:text-gray-800 text-xl">You can check some of my personal projects <Link className="border-b border-e6n-yellow hover:bg-e6n-yellow" to="/projects">here</Link> and links to my social network profiles are in the bottom <span className="hidden md:inline">right</span> of the page.</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">You can check some of my <Link className="border-b border-e6n-yellow hover:bg-e6n-yellow" to="/projects">active personal projects here</Link>, <Link className="border-b border-e6n-yellow hover:bg-e6n-yellow" to="/projects/list">past, failures and on-going projects here</Link>, and links to my social network profiles are in the bottom <span className="hidden md:inline">right</span> of the page.</p>
 
                 <p className="text-white light-mode:text-gray-800 text-xl">I'm also a co-organiser of a local developer meetup called <OutboundLink href="https://www.meetup.com/en-AU/Devz-Meetup-Vara%C5%BEdin/" target="_blank" className="border-b border-e6n-red hover:bg-e6n-red">Devz Meetup Varaždin</OutboundLink>.</p>
 
@@ -57,5 +57,3 @@ function AboutPage() {
 }
 
 export default AboutPage;
-
-
