@@ -6,5 +6,6 @@
 <url> <loc>https://lukapeharda.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lukapeharda.com/now/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lukapeharda.com/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lukapeharda.com/projects/list/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lukapeharda.com/recommendations/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
