@@ -30,6 +30,14 @@ function ProjectsListPage() {
                     </thead>
                     <tbody>
                         <tr>
+                            <td className="text-white light-mode:text-gray-800 text-left py-2">
+                                <OutboundLink href="https://ensuite.enfinita.rocks/" className="border-b border-e6n-green hover:bg-e6n-green whitespace-no-wrap" target="_blank">Ensuite</OutboundLink>
+                            </td>
+                            <td className="pl-2 text-white light-mode:text-gray-800 text-left py-2">2013.</td>
+                            <td className="pl-2 text-white light-mode:text-gray-800 text-left py-2 hidden md:table-cell">Keeping track of sport games played, mutual clashes and scores for a variety of sports (tennis, table tennis, squash, volleyball, badminton, etc.)</td>
+                            <td className="pt-2"><span className="text-white text-sm px-2 py-1 bg-e6n-green inline-block">Zombie</span></td>
+                        </tr>
+                        <tr>
                             <td className="text-white light-mode:text-gray-800 text-left py-2">Garbage App</td>
                             <td className="pl-2 text-white light-mode:text-gray-800 text-left py-2">2016.</td>
                             <td className="pl-2 text-white light-mode:text-gray-800 text-left py-2 hidden md:table-cell">App for reporting illegal garbage dumps while hiking or cycling</td>
