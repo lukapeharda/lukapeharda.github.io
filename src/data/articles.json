@@ -119,5 +119,11 @@
         "url": "article/interesting-reads-volume-13",
         "date": "2020-08-06",
         "excerpt": "Woohoo, we're already at lucky number 13! Did you know that number 13 is considered lucky to the Chinese? Featuring @adamwathan, @marcelpociot, @calebporzio and many others."
+    }, {
+        "id": "writing-year-in-review-article",
+        "title": "Writing Year in Review Article",
+        "url": "article/writing-year-in-review-article",
+        "date": "2021-01-04",
+        "excerpt": "My attempt at writing the Year in Review Article for 2020."
     }
 ]
