@@ -6,8 +6,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 function NowPage() {
-    const prev = new Date('2020-03-30');
-    const now = new Date('2020-12-07');
+    const now = new Date('2021-01-29');
     return (
         <Layout>
             <SEO
@@ -22,8 +21,9 @@ function NowPage() {
                 <h1 className="text-white light-mode:text-gray-800 italic text-4xl mt-8">What I'm doing right <span className="text-e6n-yellow">now</span></h1>
                 <p className="text-gray-500 light-mode:text-gray-800 text-sm pb-4">{ now.toDateString() }</p>
 
-                <p className="text-white light-mode:text-gray-800 text-xl">Implementing coupons for subscriptions in <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin while refactoring legacy code doing payments. Wraping up subscription implementation and getting it ready for intesive testing before relasing it to customers.</p>
-                <p className="text-white light-mode:text-gray-800 text-xl">Working on special upsell scenarios for new <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-green hover:bg-e6n-green" target="_blank">OptimizePress</OutboundLink> customers which would give them extra template packs when upgrading to larger tier.</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">Working on upsells and downsells for subsription / recurring payments (and one time payments) in <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin to enable all kind of mesmerising flows through <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-green hover:bg-e6n-green" target="_blank">OptimizePress Funnels</OutboundLink> WP plugin.</p>
+
+                <p className="text-white light-mode:text-gray-800 text-xl">Learning <OutboundLink href="https://svelte.dev/" className="border-b border-e6n-red hover:bg-e6n-red" target="_blank">Svelte</OutboundLink>, <em>the disappearing JS framework</em>, by working on a small calendar / calculator helper tool.</p>
             </div>
         </Layout>
     );
