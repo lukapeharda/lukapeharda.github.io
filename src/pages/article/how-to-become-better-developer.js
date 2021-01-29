@@ -26,6 +26,7 @@ function HowToBecomeBetterDeveloper() {
                 <Divider></Divider>
 
                 <Subtitle>Fundamentals</Subtitle>
+
                 <Paragraph>
                     <ul className="list-disc pl-4">
                         <li className="pb-4"><span className="text-e6n-red">Teamwork</span> — Great teams build great software so don’t take teamwork and your team for granted. Cultivate and prune your team. And, what is more, try to see situations from a different team member's perspective.</li>
@@ -40,6 +41,7 @@ function HowToBecomeBetterDeveloper() {
                 <Divider></Divider>
 
                 <Subtitle>Multiplicative System</Subtitle>
+
                 <Paragraph>One extra thing to consider is the multiplicative system mental model.</Paragraph>
                 <Paragraph>Let's say you value your coding skills as "10", writing clean code as "8", your testing skills as "9" but your communication skills as "0" (because your work should speak for itself, right :)). Then if we do basic multiplication 10 x 8 x 0 x 0 result would be 0!</Paragraph>
                 <Paragraph>If you are missing one of the traits for a great developer (great either by your standards or by community standards) your value could be 0. Does not matter whether you're a 10x if you do not know how to communicate with your peers, your PMs. Or if you do not know how to communicate your value to the community.</Paragraph>
@@ -47,6 +49,7 @@ function HowToBecomeBetterDeveloper() {
                 <Divider></Divider>
 
                 <Subtitle>Sources</Subtitle>
+
                 <Paragraph>Here are my sources for this article and links you should visit to learn more:</Paragraph>
                 <Paragraph>
                     <ul className="list-disc pl-4">
