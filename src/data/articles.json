@@ -125,5 +125,11 @@
         "url": "article/writing-year-in-review-article",
         "date": "2021-01-04",
         "excerpt": "My attempt at writing the Year in Review Article for 2020."
+    }, {
+        "id": "how-to-become-better-developer",
+        "title": "How to Become Better (Developer)",
+        "url": "article/how-to-become-better-developer",
+        "date": "2021-01-29",
+        "excerpt": "Fundamentals are forever. So it would be wise to invest your time to grow those."
     }
 ]
