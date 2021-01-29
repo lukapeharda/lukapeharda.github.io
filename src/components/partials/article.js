@@ -1,3 +1,4 @@
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import React from 'react';
 
 function Paragraph(props) {
@@ -22,4 +23,10 @@ function Divider() {
     );
 }
 
-export { Paragraph, Subtitle, Divider };
+function TweetLink(props) {
+    const { text, children, ...other } = props;
+
+    return <OutboundLink href={ "https://twitter.com/intent/tweet?text=" + encodeURI(text) } { ... other } target="_blank">{ children }</OutboundLink>
+}
+
+export { Paragraph, Subtitle, Divider, TweetLink };

@@ -4,7 +4,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 
-import { Paragraph, Divider, Subtitle } from "../../components/partials/article";
+import { Paragraph, Divider, Subtitle, TweetLink } from "../../components/partials/article";
 
 function HowToBecomeBetterDeveloper() {
     return (
@@ -55,6 +55,12 @@ function HowToBecomeBetterDeveloper() {
                         <li className="pb-4"><OutboundLink className="border-b border-e6n-green hover:bg-e6n-green" href="https://www.mindtools.com/pages/article/building-trust-team.htm" target="_blank" title="Building Trust Inside Your Team">Building Trust Inside Your Team</OutboundLink></li>
                         <li className="pb-4"><OutboundLink className="border-b border-e6n-yellow hover:bg-e6n-yellow" href="https://en.wikipedia.org/wiki/Curse_of_knowledge" target="_blank" title="Curse of Knowledge">Curse of Knowledge</OutboundLink></li>
                     </ul>
+                </Paragraph>
+
+                <Divider></Divider>
+
+                <Paragraph>
+                    If you like this article consider <TweetLink className="border-b border-e6n-blue hover:bg-e6n-blue" text={ `Read about how to become a better (developer) on https://lukapeharda.com/article/how-to-become-better-developer by @lukapeharda` }>tweeting</TweetLink>.
                 </Paragraph>
             </div>
         </Layout>
