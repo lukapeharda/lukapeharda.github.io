@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import Layout from "../../components/layout";
@@ -63,7 +64,7 @@ function HowToBecomeBetterDeveloper() {
                 <Divider></Divider>
 
                 <Paragraph>
-                    If you like this article consider <TweetLink className="border-b border-e6n-blue hover:bg-e6n-blue" text={ `Read about how to become a better (developer) on https://lukapeharda.com/article/how-to-become-better-developer by @lukapeharda` }>tweeting</TweetLink>.
+                    If you like this article consider <TweetLink className="border-b border-e6n-blue hover:bg-e6n-blue" text={ `Read about how to become a better (developer) on https://lukapeharda.com/article/how-to-become-better-developer by @lukapeharda` }>tweeting</TweetLink> or check out my other <Link to="/articles" className="border-b border-e6n-red hover:bg-e6n-red">articles</Link>.
                 </Paragraph>
             </div>
         </Layout>
