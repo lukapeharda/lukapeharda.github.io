@@ -19,6 +19,23 @@
 			<description><![CDATA[Fundamentals are forever. So it would be wise to invest your time to grow those.]]></description>
 			<pubDate>Fri, 29 Jan 2021 09:00:00 +0000</pubDate>
 			<guid>https://lukapeharda.com/article/how-to-become-better-developer/</guid>
+			<category>Article</category>
+		</item>
+		<item>
+			<title>Podcast Recommendation: The Knowledge Project Podcast #88 with Derek Sivers</title>
+			<link>https://fs.blog/knowledge-project/derek-sivers/</link>
+			<description><![CDATA[Derek Sivers is the bomb! He gives so many great nuggets here you'll have to listen to it at least twice. From his life philosophy, through book recommendations, to some intimate life details in a calm and rational matter. And all of this filled with jokes - he became minimalist because "he had to move houses couple of times" :-D]]></description>
+			<pubDate>Wed, 27 Jan 2021 09:00:00 +0000</pubDate>
+			<guid>https://fs.blog/knowledge-project/derek-sivers/</guid>
+			<category>Podcasts</category>
+		</item>
+		<item>
+			<title>Podcast Recommendation: The Knowledge Project Podcast #100 with Matt Mullenweg</title>
+			<link>https://fs.blog/knowledge-project/matt-mullenweg/</link>
+			<description><![CDATA[Most Farnam Street (The Knowledge Project) podcast episodes are awesome but the one with Matt Mullenweg from WordPress stands out for me. They discuss remote work (Matt rather calls it distributed) and different levels of it. Matt's saying "Words create reality" was something that moved me unexpectedly and was real food for thought. And I can not get over how soothing Matt Mullenweg voice sounds :-)]]></description>
+			<pubDate>Thu, 21 Jan 2021 09:00:00 +0000</pubDate>
+			<guid>https://fs.blog/knowledge-project/matt-mullenweg/</guid>
+			<category>Podcasts</category>
 		</item>
 		<item>
 			<title>Writing Year in Review Article</title>
@@ -26,6 +43,15 @@
 			<description><![CDATA[My attempt at writing the Year in Review Article for 2020.]]></description>
 			<pubDate>Mon, 04 Jan 2021 09:00:00 +0000</pubDate>
 			<guid>https://lukapeharda.com/article/writing-year-in-review-article/</guid>
+			<category>Article</category>
+		</item>
+		<item>
+			<title>Book Recommendation: Influence - The Psychology of Persuassion by Robert B. Cialdini</title>
+			<link>https://amzn.to/2C93VYd</link>
+			<description><![CDATA[I'd recommend it to anyone interested in influencing and persuading people to say yes. Principles explained in the book are not that unknown but are explained in detail. Explained how and why they work and are accompanied with great examples.]]></description>
+			<pubDate>Thu, 06 Aug 2020 09:00:00 +0000</pubDate>
+			<guid>https://amzn.to/2C93VYd</guid>
+			<category>Books</category>
 		</item>
 		<item>
 			<title>Interesting reads - volume #13</title>
@@ -33,6 +59,7 @@
 			<description><![CDATA[Woohoo, we're already at lucky number 13! Did you know that number 13 is considered lucky to the Chinese? Featuring @adamwathan, @marcelpociot, @calebporzio and many others.]]></description>
 			<pubDate>Thu, 06 Aug 2020 09:00:00 +0000</pubDate>
 			<guid>https://lukapeharda.com/article/interesting-reads-volume-13/</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads - volume #12</title>
@@ -40,6 +67,7 @@
 			<description><![CDATA[We again have a selection of PHP (mostly Laravel but there are Symfony and WordPress reads as well) and JavaScript (React). Though there is a lot of assorted tech reads as well (and some CSS ones).]]></description>
 			<pubDate>Tue, 30 Jun 2020 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-12-93eeef973008</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #11</title>
@@ -47,6 +75,7 @@
 			<description><![CDATA[This month there may be more React links than usual due to me building a new web app using React hooks and learning the intricacies of hooks to stop DDoSing my app 😜]]></description>
 			<pubDate>Fri, 29 May 2020 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-11-5996c5f3abbe</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #10</title>
@@ -54,6 +83,7 @@
 			<description><![CDATA[Another month has passed so it is time for another collection of interesting reads collected in the last month or so. Some links are a bit older but good and applicable nonetheless. Mostly PHP and JavaScript this time but there are a few unrelated gems as always.]]></description>
 			<pubDate>Thu, 30 Apr 2020 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-10-d191261e4af7</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #9</title>
@@ -61,6 +91,7 @@
 			<description><![CDATA[I know you’ve been impatiently waiting for this month’s installment of Interesting Reads. Again, a collection of mostly PHP, Laravel, WordPress and JavaScript links but there should be something for everybody to enjoy.]]></description>
 			<pubDate>Mon, 30 Mar 2020 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-9-3a39fda84274</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #8</title>
@@ -68,6 +99,7 @@
 			<description><![CDATA[A lot of WordPress, Laravel and JavaScript articles and tips this month. Even though they are showcased in some framework or an app (what would you call a WordPress, a framework, or an app, or maybe both?) most of its principles are universal and can be applied to different programming languages and frameworks.]]></description>
 			<pubDate>Thu, 27 Feb 2020 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-8-4a6f7a5cbfa1</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #7</title>
@@ -75,6 +107,7 @@
 			<description><![CDATA[Good news, by popular demand (wink wink Zvonko) I’m continuing with Interesting reads. I know what you’re thinking — your year could not have started with better news than this :D]]></description>
 			<pubDate>Fri, 31 Jan 2020 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-7-f2f5299febb0</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #6</title>
@@ -82,6 +115,7 @@
 			<description><![CDATA[In this volume, there are a couple of interesting articles related to WordPress and Laravel as well as JavaScript ones (plus few goodies and scare pieces).]]></description>
 			<pubDate>Wed, 17 Jan 2018 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-6-fa97b98a8a3</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #5</title>
@@ -89,6 +123,7 @@
 			<description><![CDATA[In this volume we have a few WordPress articles, a bit of CSS, Go, PHP, React, SVG and a lot of boilerplates and starter kits, seasoned with some AI (ML and CV). FTW :)]]></description>
 			<pubDate>Fri, 19 May 2017 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-5-702049027fdc</guid>
+			<category>Article</category>
 		</item>
 		<item>
 			<title>Interesting reads — volume #4</title>
@@ -96,8 +131,7 @@
 			<description><![CDATA[Ahoy, dear reads. It seems that time of the month has come again! Yes, you are correct — it is time for the new edition of Interesting reads. Although I’m trying to write one on a weekly basis, days just keep slipping away from me.]]></description>
 			<pubDate>Mon, 03 Apr 2017 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-4-427d0ca245c4</guid>
+			<category>Article</category>
 		</item>
-
 	</channel>
 </rss>
-
