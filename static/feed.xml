@@ -48,6 +48,55 @@
 			<pubDate>Fri, 29 May 2020 09:00:00 +0000</pubDate>
 			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-11-5996c5f3abbe</guid>
 		</item>
+		<item>
+			<title>Interesting reads — volume #10</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-10-d191261e4af7</link>
+			<description><![CDATA[Another month has passed so it is time for another collection of interesting reads collected in the last month or so. Some links are a bit older but good and applicable nonetheless. Mostly PHP and JavaScript this time but there are a few unrelated gems as always.]]></description>
+			<pubDate>Thu, 30 Apr 2020 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-10-d191261e4af7</guid>
+		</item>
+		<item>
+			<title>Interesting reads — volume #9</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-9-3a39fda84274</link>
+			<description><![CDATA[I know you’ve been impatiently waiting for this month’s installment of Interesting Reads. Again, a collection of mostly PHP, Laravel, WordPress and JavaScript links but there should be something for everybody to enjoy.]]></description>
+			<pubDate>Mon, 30 Mar 2020 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-9-3a39fda84274</guid>
+		</item>
+		<item>
+			<title>Interesting reads — volume #8</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-8-4a6f7a5cbfa1</link>
+			<description><![CDATA[A lot of WordPress, Laravel and JavaScript articles and tips this month. Even though they are showcased in some framework or an app (what would you call a WordPress, a framework, or an app, or maybe both?) most of its principles are universal and can be applied to different programming languages and frameworks.]]></description>
+			<pubDate>Thu, 27 Feb 2020 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-8-4a6f7a5cbfa1</guid>
+		</item>
+		<item>
+			<title>Interesting reads — volume #7</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-7-f2f5299febb0</link>
+			<description><![CDATA[Good news, by popular demand (wink wink Zvonko) I’m continuing with Interesting reads. I know what you’re thinking — your year could not have started with better news than this :D]]></description>
+			<pubDate>Fri, 31 Jan 2020 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-7-f2f5299febb0</guid>
+		</item>
+		<item>
+			<title>Interesting reads — volume #6</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-6-fa97b98a8a3</link>
+			<description><![CDATA[In this volume, there are a couple of interesting articles related to WordPress and Laravel as well as JavaScript ones (plus few goodies and scare pieces).]]></description>
+			<pubDate>Wed, 17 Jan 2018 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-6-fa97b98a8a3</guid>
+		</item>
+		<item>
+			<title>Interesting reads — volume #5</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-5-702049027fdc</link>
+			<description><![CDATA[In this volume we have a few WordPress articles, a bit of CSS, Go, PHP, React, SVG and a lot of boilerplates and starter kits, seasoned with some AI (ML and CV). FTW :)]]></description>
+			<pubDate>Fri, 19 May 2017 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-5-702049027fdc</guid>
+		</item>
+		<item>
+			<title>Interesting reads — volume #4</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-4-427d0ca245c4</link>
+			<description><![CDATA[Ahoy, dear reads. It seems that time of the month has come again! Yes, you are correct — it is time for the new edition of Interesting reads. Although I’m trying to write one on a weekly basis, days just keep slipping away from me.]]></description>
+			<pubDate>Mon, 03 Apr 2017 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-4-427d0ca245c4</guid>
+		</item>
 
 	</channel>
 </rss>
