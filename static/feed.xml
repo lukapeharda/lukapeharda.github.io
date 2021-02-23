@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>lukapeharda.com</title>
+		<description>PHP &amp; JS developer</description>
+		<pubDate>Tue, 23 Feb 2021 09:38:15 +0000</pubDate>
+		<link>https://lukapeharda.com/</link>
+		<image>
+			<link>https://lukapeharda.com/</link>
+			<url>https://www.google.com/s2/favicons?domain=https://lukapeharda.com</url>
+			<title>lukapeharda.com</title>
+		</image>
+
+		<item>
+			<title>How to Become Better (Developer)</title>
+			<link>https://lukapeharda.com/article/how-to-become-better-developer/</link>
+			<description><![CDATA[Fundamentals are forever. So it would be wise to invest your time to grow those.]]></description>
+			<pubDate>Fri, 29 Jan 2021 09:00:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/how-to-become-better-developer/</guid>
+		</item>
+		<item>
+			<title>Writing Year in Review Article</title>
+			<link>https://lukapeharda.com/article/writing-year-in-review-article/</link>
+			<description><![CDATA[My attempt at writing the Year in Review Article for 2020.]]></description>
+			<pubDate>Mon, 04 Jan 2021 09:00:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/writing-year-in-review-article/</guid>
+		</item>
+		<item>
+			<title>Interesting reads - volume #13</title>
+			<link>https://lukapeharda.com/article/interesting-reads-volume-13/</link>
+			<description><![CDATA[Woohoo, we're already at lucky number 13! Did you know that number 13 is considered lucky to the Chinese? Featuring @adamwathan, @marcelpociot, @calebporzio and many others.]]></description>
+			<pubDate>Thu, 06 Aug 2020 09:00:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/interesting-reads-volume-13/</guid>
+		</item>
+		<item>
+			<title>Interesting reads - volume #12</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-12-93eeef973008</link>
+			<description><![CDATA[We again have a selection of PHP (mostly Laravel but there are Symfony and WordPress reads as well) and JavaScript (React). Though there is a lot of assorted tech reads as well (and some CSS ones).]]></description>
+			<pubDate>Tue, 30 Jun 2020 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-12-93eeef973008</guid>
+		</item>
+		<item>
+			<title>Interesting reads — volume #11</title>
+			<link>https://medium.com/@lukapeharda/interesting-reads-volume-11-5996c5f3abbe</link>
+			<description><![CDATA[This month there may be more React links than usual due to me building a new web app using React hooks and learning the intricacies of hooks to stop DDoSing my app 😜]]></description>
+			<pubDate>Fri, 29 May 2020 09:00:00 +0000</pubDate>
+			<guid>https://medium.com/@lukapeharda/interesting-reads-volume-11-5996c5f3abbe</guid>
+		</item>
+
+	</channel>
+</rss>
+
