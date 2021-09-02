@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 function NowPage() {
-    const now = new Date('2021-01-29');
+    const now = new Date('2021-09-02');
     return (
         <Layout>
             <SEO
@@ -21,9 +21,9 @@ function NowPage() {
                 <h1 className="text-white light-mode:text-gray-800 italic text-4xl mt-8">What I'm doing right <span className="text-e6n-yellow">now</span></h1>
                 <p className="text-gray-500 light-mode:text-gray-800 text-sm pb-4">{ now.toDateString() }</p>
 
-                <p className="text-white light-mode:text-gray-800 text-xl">Working on upsells and downsells for subsription / recurring payments (and one time payments) in <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin to enable all kind of mesmerising flows through <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-green hover:bg-e6n-green" target="_blank">OptimizePress Funnels</OutboundLink> WP plugin.</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">Finish implementing PayPal as a payment provider in <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin. Until you start working through their docs you can not appreciate Stripe docs enough :-) They were so horrible that I'm considering creating a "PayPal for Stripe developers" course, which I'm sure would be really useful for many lost developers out there.</p>
 
-                <p className="text-white light-mode:text-gray-800 text-xl">Learning <OutboundLink href="https://svelte.dev/" className="border-b border-e6n-red hover:bg-e6n-red" target="_blank">Svelte</OutboundLink>, <em>the disappearing JS framework</em>, by working on a small calendar / calculator helper tool.</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">Throughout the summer months I've stopped accepting extra projects and focus on improving my MTB skills instead.</p>
             </div>
         </Layout>
     );
