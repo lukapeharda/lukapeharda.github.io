@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 function NowPage() {
-    const now = new Date('2021-09-02');
+    const now = new Date('2021-11-26');
     return (
         <Layout>
             <SEO
@@ -21,9 +21,9 @@ function NowPage() {
                 <h1 className="text-white light-mode:text-gray-800 italic text-4xl mt-8">What I'm doing right <span className="text-e6n-yellow">now</span></h1>
                 <p className="text-gray-500 light-mode:text-gray-800 text-sm pb-4">{ now.toDateString() }</p>
 
-                <p className="text-white light-mode:text-gray-800 text-xl">Finish implementing PayPal as a payment provider in <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">OptimizePress Checkouts</OutboundLink> WordPress plugin. Until you start working through their docs you can not appreciate Stripe docs enough :-) They were so horrible that I'm considering creating a "PayPal for Stripe developers" course, which I'm sure would be really useful for many lost developers out there.</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">After a couple months of hiatus, I'm back working on <OutboundLink href="https://kourses.com/" className="border-b border-e6n-blue hover:bg-e6n-blue" target="_blank">Kourses</OutboundLink>, <span className="text-gray-500">our unreleased membership SaaS product.</span> Currently, I'm working on API and integrating it with our own <OutboundLink href="https://optimizepress.com/" className="border-b border-e6n-red hover:bg-e6n-red" target="_blank">OptimizePress</OutboundLink> members' hub to give customers extra content and value. This means that we are starting to eat our own dog food and use our product :-)</p>
 
-                <p className="text-white light-mode:text-gray-800 text-xl">Throughout the summer months I've stopped accepting extra projects and focus on improving my MTB skills instead.</p>
+                <p className="text-white light-mode:text-gray-800 text-xl">As winter has arrived improvment of my MTB skills have moved from real life to PS4 and Riders Republic :-D</p>
             </div>
         </Layout>
     );
