@@ -13,6 +13,14 @@
 			<height>144</height>
 		</image>
 		<item>
+			<title>Write Before You Think</title>
+			<link>https://lukapeharda.com/article/write-before-you-think/</link>
+			<description><![CDATA[Writing makes me think clearly and what is more important, more efficiently. And it helps me to structure my thoughts.]]></description>
+			<pubDate>Fri, 14 Jan 2022 11:00:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/write-before-you-think/</guid>
+			<category>Article</category>
+		</item>
+		<item>
 			<title>Updated my "now" page with current work</title>
 			<link>https://lukapeharda.com/now/</link>
 			<description><![CDATA[After a couple months of hiatus, I'm back working on Kourses, our unreleased membership SaaS product. Currently, I'm working on API and integrating it with our own OptimizePress members' hub to give customers extra content and value. This means that we are starting to eat our own dog food and use our product :-)]]></description>
