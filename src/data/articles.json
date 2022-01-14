@@ -131,5 +131,11 @@
         "url": "article/how-to-become-better-developer/",
         "date": "2021-01-29",
         "excerpt": "Fundamentals are forever. So it would be wise to invest your time to grow those."
+    }, {
+        "id": "write-before-you-think",
+        "title": "Write Before You Think",
+        "url": "article/write-before-you-think/",
+        "date": "2022-01-14",
+        "excerpt": "Writing makes me think clearly and what is more important, more efficiently. And it helps me to structure my thoughts."
     }
 ]
