@@ -16,7 +16,7 @@ function WriteBeforeYouThink() {
             />
 
             <div className="relative h-full w-full bg-e6n-black light-mode:bg-white">
-                <div className="xl:w-1/2 md:w-2/3 p-4 md:p-8 text-content">
+                <div className="xl:w-1/2 md:w-2/3 p-4 md:p-8 text-content mb-24 md:mb-0">
                     <h1 className="text-white light-mode:text-gray-800 text-4xl italic mb-0">Write Before You Think</h1>
                     <div className="text-gray-500 light-mode:text-gray-800 text-xs mb-4">{ new Date("2022-01-14").toDateString() }</div>
                     <Subtitle>How Writing Helps Me Think Clearly</Subtitle>
