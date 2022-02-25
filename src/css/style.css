@@ -62,7 +62,8 @@
  */
  /* @import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Montserrat:300&display=swap');
-@import "../../node_modules/highlight.js/styles/stackoverflow-dark.css";
+/* @import "../../node_modules/highlight.js/styles/stackoverflow-dark.css"; */
+@import "highlight.css";
 
 body {
     /* font-family: 'Roboto', sans-serif; */
@@ -73,17 +74,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
     font-weight: 300;
-}
-
-code.hljs {
-    background: #2D3748;
-    padding: 1em;
-}
-
-@media (prefers-color-scheme: light) {
-    code.hljs {
-        background: #4A5568;
-    }
 }
 
  .text-e6n-color-rainbow {
