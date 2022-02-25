@@ -116,26 +116,32 @@
     }, {
         "id": "interesting-reads-volume-13",
         "title": "Interesting reads - volume #13",
-        "url": "article/interesting-reads-volume-13/",
+        "url": "/article/interesting-reads-volume-13/",
         "date": "2020-08-06",
         "excerpt": "Woohoo, we're already at lucky number 13! Did you know that number 13 is considered lucky to the Chinese? Featuring @adamwathan, @marcelpociot, @calebporzio and many others."
     }, {
         "id": "writing-year-in-review-article",
         "title": "Writing Year in Review Article",
-        "url": "article/writing-year-in-review-article/",
+        "url": "/article/writing-year-in-review-article/",
         "date": "2021-01-04",
         "excerpt": "My attempt at writing the Year in Review Article for 2020."
     }, {
         "id": "how-to-become-better-developer",
         "title": "How to Become Better (Developer)",
-        "url": "article/how-to-become-better-developer/",
+        "url": "/article/how-to-become-better-developer/",
         "date": "2021-01-29",
         "excerpt": "Fundamentals are forever. So it would be wise to invest your time to grow those."
     }, {
         "id": "write-before-you-think",
         "title": "Write Before You Think",
-        "url": "article/write-before-you-think/",
+        "url": "/article/write-before-you-think/",
         "date": "2022-01-14",
         "excerpt": "Writing makes me think clearly and what is more important, more efficiently. And it helps me to structure my thoughts."
+    }, {
+        "id": "refactoring-optional-method-params",
+        "title": "Refactoring Optional Method Params",
+        "url": "/article/refactoring-optional-method-params/",
+        "date": "2022-02-25",
+        "excerpt": "While refactoring and optimising legacy code I've ran into a method signature inconsistency which caused performance issues and was being done without developer intention."
     }
 ]

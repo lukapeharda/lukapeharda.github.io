@@ -29,4 +29,10 @@ function TweetLink(props) {
     return <OutboundLink href={ "https://twitter.com/intent/tweet?text=" + encodeURI(text) } { ... other } target="_blank">{ children }</OutboundLink>
 }
 
-export { Paragraph, Subtitle, Divider, TweetLink };
+function Bold(props) {
+    const { children } = props;
+
+    return <strong className="bg-gray-700 light-mode:bg-gray-200">{ children }</strong>
+}
+
+export { Paragraph, Bold, Subtitle, Divider, TweetLink };
