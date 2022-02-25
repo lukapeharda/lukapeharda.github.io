@@ -24,7 +24,7 @@ function RefactoringOptionalMethodParams() {
 
                     <Paragraph>While refactoring and optimising legacy code I've ran into a method signature (optional parameters) inconsistency which caused performance issues as part of the expensive operation was being done without developer intention.</Paragraph>
 
-                    <Highlight className="language-php p-0 my-6">
+                    <Highlight className="language-php my-6">
                         {
 `class PageRepository
 {
@@ -74,7 +74,7 @@ function RefactoringOptionalMethodParams() {
 
                     <h2 className="text-white light-mode:text-gray-800 text-2xl italic mt-8 mb-4"><span className="text-e6n-yellow text-white mr-4">2.</span> Specify optional param value</h2>
                     <Paragraph>Just specify a value explicitly so anyone reading your code (even you a couple of months in the future) will know that you’ve set it and used it intentionally.</Paragraph>
-                    <Highlight className="language-php p-0 my-6">
+                    <Highlight className="language-php my-6">
                         {
 `$pageRepository = new PageRepository();
 
@@ -82,7 +82,7 @@ $page = $pageRepository->find($pageId, false);`
                         }
                     </Highlight>
                     <Paragraph>Or even better, use the variable with a semantic meaning when calling the method.</Paragraph>
-                    <Highlight className="language-php p-0 my-6">
+                    <Highlight className="language-php my-6">
                         {
 `$pageRepository = new PageRepository();
 
@@ -96,7 +96,7 @@ $page = $pageRepository->find($pageId, $prerender = false);`
                     <h2 className="text-white light-mode:text-gray-800 text-2xl italic mt-8 mb-4"><span className="text-e6n-green text-white mr-4">3.</span> Refactor the method with optional flag parameter into two distinct methods</h2>
                     <Paragraph>Remove the <code className="hljs-literal">$page-&gt;prerender()</code> call from the <code className="hljs-literal">PageRepository::find</code> method and extract it to a separate <code className="hljs-literal">PageRepository::findAndPrerender</code> method.</Paragraph>
 
-                    <Highlight className="language-php p-0 my-6">
+                    <Highlight className="language-php my-6">
                         {
 `class PageRepository
 {
