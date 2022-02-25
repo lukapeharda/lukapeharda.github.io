@@ -3,7 +3,7 @@
 	<channel>
 		<title>lukapeharda.com</title>
 		<description>PHP &amp; JS developer</description>
-		<pubDate>Tue, 08 Jul 2021 10:15:00 +0000</pubDate>
+		<pubDate>Fri, 22 Feb 2022 18:00:00 +0000</pubDate>
 		<link>https://lukapeharda.com/</link>
 		<image>
 			<link>https://lukapeharda.com/</link>
@@ -12,6 +12,14 @@
 			<width>144</width>
 			<height>144</height>
 		</image>
+		<item>
+			<title>Refactoring Optional Method Params</title>
+			<link>https://lukapeharda.com/article/refactoring-optional-method-params/</link>
+			<description><![CDATA[While refactoring and optimising legacy code I've ran into a method signature inconsistency which caused performance issues and was being done without developer intention.]]></description>
+			<pubDate>Fri, 22 Feb 2022 18:00:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/refactoring-optional-method-params/</guid>
+			<category>Article</category>
+		</item>
 		<item>
 			<title>Write Before You Think</title>
 			<link>https://lukapeharda.com/article/write-before-you-think/</link>
