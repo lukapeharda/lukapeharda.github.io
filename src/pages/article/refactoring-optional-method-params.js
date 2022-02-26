@@ -12,14 +12,14 @@ function RefactoringOptionalMethodParams() {
     return (
         <Layout>
             <SEO
-                title="Refactoring Optional Method Params"
+                title="How to Refactor a Method With Optional Params"
                 keywords={['refactoring', 'php', ]}
                 description="While refactoring and optimising legacy code I've ran into a method signature inconsistency which caused performance issues and was being done without developer intention."
             />
 
             <div className="relative h-full w-full bg-e6n-black light-mode:bg-white">
                 <div className="xl:w-1/2 md:w-2/3 p-4 md:p-8 text-content mb-24 md:mb-0">
-                    <h1 className="text-white light-mode:text-gray-800 text-4xl italic mb-0">Refactoring Optional Method Params</h1>
+                    <h1 className="text-white light-mode:text-gray-800 text-4xl italic mb-0">How to Refactor a Method With Optional Params</h1>
                     <div className="text-gray-500 light-mode:text-gray-800 text-xs mb-4">{ new Date("2022-02-25").toDateString() }</div>
 
                     <Paragraph>While refactoring and optimising legacy code I've ran into a method signature (optional parameters) inconsistency which caused performance issues as part of the expensive operation was being done without developer intention.</Paragraph>

@@ -139,7 +139,7 @@
         "excerpt": "Writing makes me think clearly and what is more important, more efficiently. And it helps me to structure my thoughts."
     }, {
         "id": "refactoring-optional-method-params",
-        "title": "Refactoring Optional Method Params",
+        "title": "How to Refactor a Method With Optional Params",
         "url": "/article/refactoring-optional-method-params/",
         "date": "2022-02-25",
         "excerpt": "While refactoring and optimising legacy code I've ran into a method signature inconsistency which caused performance issues and was being done without developer intention."
