@@ -145,7 +145,7 @@
         "excerpt": "While refactoring and optimising legacy code I've ran into a method signature inconsistency which caused performance issues and was being done without developer intention."
     }, {
         "id": "why-wrapping-3rd-party-calls-to-external-service-is-always-a-good-idea",
-        "title": "Why wrapping 3rd-party calls to external services is always a good idea",
+        "title": "Why wrapping 3rd-party calls to external services is always a&nbsp;good&nbsp;idea",
         "url": "/article/why-wrapping-3rd-party-calls-to-external-service-is-always-a-good-idea/",
         "date": "2022-03-31",
         "excerpt": "When using a 3rd-party package that makes calls (or API requests) to an external service it is always a good idea to wrap 3rd-party service with a thin wrapper (Facade)."
