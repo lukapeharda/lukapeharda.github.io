@@ -9,7 +9,7 @@ function RecommendationsPage() {
     return (
         <Layout>
             <SEO
-                title="Recommendations"
+                title="Podcast and book recommendations"
                 keywords={['luka', 'peharda', 'lukapeharda', 'lukapeharda.com', 'recommendations', 'books', 'podcasts']}
             />
 

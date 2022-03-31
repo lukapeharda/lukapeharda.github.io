@@ -10,7 +10,7 @@ function NowPage() {
     return (
         <Layout>
             <SEO
-                title="Now"
+                title="What I'm doing right now"
                 keywords={['luka', 'peharda', 'lukapeharda', 'lukapeharda.com', 'now']}
             />
 

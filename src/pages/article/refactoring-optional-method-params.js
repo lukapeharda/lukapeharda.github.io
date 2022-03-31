@@ -11,8 +11,8 @@ function RefactoringOptionalMethodParams() {
     return (
         <Layout>
             <SEO
-                title="How to Refactor a Method With Optional Params"
-                keywords={['refactoring', 'php', ]}
+                title="How to Refactor a Method With Optional Params | by Luka Peharda"
+                keywords={['refactoring', 'php', 'luka', 'peharda']}
                 description="While refactoring and optimising legacy code I've ran into a method signature inconsistency which caused performance issues and was being done without developer intention."
             />
 

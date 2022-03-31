@@ -8,7 +8,7 @@ function ProjectsPage() {
     return (
         <Layout>
             <SEO
-                title="Projects"
+                title="Side projects"
                 keywords={['luka', 'peharda', 'lukapeharda', 'projects', 'photile', 'photile.co']}
             />
 

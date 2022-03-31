@@ -8,7 +8,7 @@ function IndexPage() {
   return (
     <Layout>
         <SEO
-            title="Home"
+            title="Hi, I'm Luka Peharda, web developer with over 10 years in PHP and JavaScript"
             keywords={['luka', 'peharda', 'lukapeharda']}
         />
 

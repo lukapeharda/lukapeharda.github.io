@@ -9,7 +9,7 @@ function AboutPage() {
     return (
         <Layout>
             <SEO
-                title="About"
+                title="About me"
                 keywords={['luka', 'peharda', 'lukapeharda', 'lukapeharda.com', 'about']}
             />
 

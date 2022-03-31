@@ -10,8 +10,8 @@ function WriteBeforeYouThink() {
     return (
         <Layout>
             <SEO
-                title="Write Before You Think"
-                keywords={['write', 'think', 'solution', 'decision', 'feynman', 'lukapeharda.com']}
+                title="Write Before You Think | by Luka Peharda"
+                keywords={['write', 'think', 'solution', 'decision', 'feynman', 'lukapeharda.com', 'luka', 'peharda']}
                 description="Writing makes me think clearly and what is more important, more efficiently. And it helps me to structure my thoughts."
             />
 

@@ -11,8 +11,8 @@ function Wrapping3rdPartyServiceCalls() {
     return (
         <Layout>
             <SEO
-                title="Why wrapping 3rd-party calls to external services is always a good idea"
-                keywords={['refactoring', 'php', 'wrapping', 'api', 'external', 'facade', 'design', 'pattern']}
+                title="Why wrapping 3rd-party calls to external services is always a good idea | by Luka Peharda"
+                keywords={['refactoring', 'php', 'wrapping', 'api', 'external', 'facade', 'design', 'pattern', 'luka', 'peharda']}
                 description="When using a 3rd-party package that makes calls (or API requests) to an external service it is always a good idea to wrap 3rd-party service with a thin wrapper (Facade)."
             />
 

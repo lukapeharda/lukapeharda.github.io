@@ -9,7 +9,7 @@ function ArticlesPage() {
         <Layout>
             <SEO
                 title="Articles"
-                keywords={['lukapeharda', 'lukapeharda.com', 'articles']}
+                keywords={['lukapeharda', 'luka', 'peharda', 'lukapeharda.com', 'articles']}
             />
 
             <Articles />
