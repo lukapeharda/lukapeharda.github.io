@@ -65,6 +65,10 @@
 /* @import "../../node_modules/highlight.js/styles/stackoverflow-dark.css"; */
 @import "highlight.css";
 
+:root {
+    color-scheme: light dark;
+}
+
 body {
     /* font-family: 'Roboto', sans-serif; */
     /* font-weight: 100; */
