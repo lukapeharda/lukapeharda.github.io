@@ -1,17 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 
-import { Paragraph, Divider, Subtitle } from "../../components/partials/article";
-
-function OutLink(props) {
-    const { children, href, color } = props;
-
-    return <OutboundLink href={ href } target="_blank" className={ `border-b border-e6n-${color} hover:bg-e6n-${color}` }>{ children }</OutboundLink>
-}
+import { Paragraph, Divider, Subtitle, OutLink } from "../../components/partials/article";
 
 function InterestingReadsVolume13Page() {
     return (

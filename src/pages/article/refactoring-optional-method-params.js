@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "gatsby";
 import Highlight from 'react-highlight';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import Layout from "../../components/layout";
 import SEO from "../../components/seo";
 
-import { Paragraph, Bold, Divider, Subtitle, TweetLink } from "../../components/partials/article";
+import { Paragraph, Bold, Divider, TweetLink } from "../../components/partials/article";
 
 function RefactoringOptionalMethodParams() {
     return (

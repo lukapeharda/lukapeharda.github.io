@@ -35,4 +35,11 @@ function Bold(props) {
     return <strong className="bg-gray-700 light-mode:bg-gray-200">{ children }</strong>
 }
 
-export { Paragraph, Bold, Subtitle, Divider, TweetLink };
+function OutLink(props) {
+    const { children, href, color } = props;
+
+    return <OutboundLink href={ href } target="_blank" className={ `border-b border-e6n-${color} hover:bg-e6n-${color}` }>{ children }</OutboundLink>
+}
+
+
+export { Paragraph, Bold, Subtitle, Divider, TweetLink, OutLink };
