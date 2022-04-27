@@ -3,7 +3,7 @@
 	<channel>
 		<title>lukapeharda.com</title>
 		<description>PHP &amp; JS developer</description>
-		<pubDate>Fri, 31 Mar 2022 10:00:00 +0000</pubDate>
+		<pubDate>Wed, 27 Apr 2022 10:00:00 +0000</pubDate>
 		<link>https://lukapeharda.com/</link>
 		<image>
 			<link>https://lukapeharda.com/</link>
@@ -12,6 +12,14 @@
 			<width>144</width>
 			<height>144</height>
 		</image>
+		<item>
+			<title>How to generate a full Tailwind CSS palette from a single color</title>
+			<link>https://lukapeharda.com/article/how-to-generate-a-full-Tailwind-CSS-palette-from-a-single-color/</link>
+			<description><![CDATA[You have an app where you allow users to select their brand color in order to style their website. Naturally, you use different shades of the color in your design - in some places you use ligher ones, and in other darker ones. But the problem is ...]]></description>
+			<pubDate>Wed, 27 Apr 2022 10:00:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/how-to-generate-a-full-Tailwind-CSS-palette-from-a-single-color/</guid>
+			<category>Article</category>
+		</item>
 		<item>
 			<title>Why wrapping 3rd-party calls to external services is always a good idea</title>
 			<link>https://lukapeharda.com/article/why-wrapping-3rd-party-calls-to-external-service-is-always-a-good-idea/</link>

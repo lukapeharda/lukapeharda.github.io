@@ -149,5 +149,11 @@
         "url": "/article/why-wrapping-3rd-party-calls-to-external-service-is-always-a-good-idea/",
         "date": "2022-03-31",
         "excerpt": "When using a 3rd-party package that makes calls (or API requests) to an external service it is always a good idea to wrap 3rd-party service with a thin wrapper (Facade)."
+    }, {
+        "id": "how-to-generate-a-full-Tailwind-CSS-palette-from-a-single-color",
+        "title": "How to generate a full Tailwind CSS palette from a single color",
+        "url": "/article/how-to-generate-a-full-Tailwind-CSS-palette-from-a-single-color/",
+        "date": "2022-04-27",
+        "excerpt": "You have an app where you allow users to select their brand color in order to style their website. Naturally, you use different shades of the color in your design - in some places you use ligher ones, and in other darker ones. But the problem is ..."
     }
 ]
