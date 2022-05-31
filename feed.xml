@@ -3,7 +3,7 @@
 	<channel>
 		<title>lukapeharda.com</title>
 		<description>PHP &amp; JS developer</description>
-		<pubDate>Wed, 27 Apr 2022 10:00:00 +0000</pubDate>
+		<pubDate>Tue, 31 May 2022 10:30:00 +0000</pubDate>
 		<link>https://lukapeharda.com/</link>
 		<image>
 			<link>https://lukapeharda.com/</link>
@@ -12,6 +12,14 @@
 			<width>144</width>
 			<height>144</height>
 		</image>
+		<item>
+			<title>Unexpected benefits of estimations</title>
+			<link>https://lukapeharda.com/article/unexpected-benefits-of-estimations/</link>
+			<description><![CDATA[Did you know you can use the estimation to jump-start and beat procrastination? Reasons for the procrastination can be because we don't know how to do something or even what needs to be done.]]></description>
+			<pubDate>Tue, 31 May 2022 10:30:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/unexpected-benefits-of-estimations/</guid>
+			<category>Article</category>
+		</item>
 		<item>
 			<title>How to generate a full Tailwind CSS palette from a single color</title>
 			<link>https://lukapeharda.com/article/how-to-generate-a-full-Tailwind-CSS-palette-from-a-single-color/</link>
