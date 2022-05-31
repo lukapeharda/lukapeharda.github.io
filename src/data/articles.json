@@ -155,5 +155,11 @@
         "url": "/article/how-to-generate-a-full-Tailwind-CSS-palette-from-a-single-color/",
         "date": "2022-04-27",
         "excerpt": "You have an app where you allow users to select their brand color in order to style their website. Naturally, you use different shades of the color in your design - in some places you use ligher ones, and in other darker ones. But the problem is ..."
+    }, {
+        "id": "unexpected-benefits-of-estimations",
+        "title": "Unexpected benefits of estimations",
+        "url": "/article/unexpected-benefits-of-estimations/",
+        "date": "2022-05-31",
+        "excerpt": "Did you know you can use the estimation to jump-start and beat procrastination? Reasons for the procrastination can be because we don't know how to do something or even what needs to be done."
     }
 ]
