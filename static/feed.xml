@@ -3,7 +3,7 @@
 	<channel>
 		<title>lukapeharda.com</title>
 		<description>PHP &amp; JS developer</description>
-		<pubDate>Tue, 31 May 2022 10:30:00 +0000</pubDate>
+		<pubDate>Tue, 25 Oct 2022 09:10:00 +0000</pubDate>
 		<link>https://lukapeharda.com/</link>
 		<image>
 			<link>https://lukapeharda.com/</link>
@@ -12,6 +12,14 @@
 			<width>144</width>
 			<height>144</height>
 		</image>
+		<item>
+			<title>100 lines of code per file</title>
+			<link>https://lukapeharda.com/article/100-lines-of-code-per-file/</link>
+			<description><![CDATA[It has gotten to my attention that one of the biggest dev companies in the region has a pull-request requirement that checks whether each file committed is under 100 lines long. It seems like a pretty stupid requirement, right?]]></description>
+			<pubDate>Tue, 25 Oct 2022 09:10:00 +0000</pubDate>
+			<guid>https://lukapeharda.com/article/100-lines-of-code-per-file/</guid>
+			<category>Article</category>
+		</item>
 		<item>
 			<title>Unexpected benefits of estimations</title>
 			<link>https://lukapeharda.com/article/unexpected-benefits-of-estimations/</link>
